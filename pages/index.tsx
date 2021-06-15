@@ -51,10 +51,12 @@ const Home = () => {
       </main>
 
       <footer className={styles.footer}>
+        <p>
         Powered by{' '}
-        <span className={styles.logo}>
-          <Image src="/sam.png" width={30} height={30} />
-        </span>
+          <span className={styles.logo}>
+            <Image src="/sam.png" width={30} height={30} />
+          </span>
+        </p>
       </footer>
     </div>
   )
