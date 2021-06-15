@@ -1,6 +1,7 @@
 import styles from './Layout.module.css'
 import Image from 'next/image'
 import Head from 'next/head'
+import Footer from './Footer'
 
 const Layout = props => {
   return (
@@ -11,14 +12,7 @@ const Layout = props => {
         <link rel="icon" href="/sam.png" />
       </Head>
       {props.children}
-      <footer className={styles.footer}>
-        <p>
-        Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/sam.png" width={30} height={30} />
-          </span>
-        </p>
-      </footer>
+      <Footer />
     </div>
   )
 }
