@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 const Home = () => {
   return (
     <Layout>
-      <main className={styles.main}>
+      <main>
         <h1 className={styles.title}>kb's Space</h1>
 
         <p className={styles.description}>

@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       <p>
       Powered by{' '}
-        <span className={styles.logo}>
+        <span>
           <Image src="/sam.png" width={30} height={30} />
         </span>
       </p>
