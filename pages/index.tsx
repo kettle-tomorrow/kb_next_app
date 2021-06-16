@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Layout from '../components/Layout'
 import Title from '../components/Title'
+import Description from '../components/Description'
 import styles from '../styles/Home.module.css'
 
 const Home = () => {
@@ -9,9 +10,7 @@ const Home = () => {
       <main>
         <Title />
 
-        <p className={styles.description}>
-          <code className={styles.code}>Next.js, TypeScript</code>の学習スペース
-        </p>
+        <Description />
 
         <div className={styles.grid}>
           <Link href='/alcohols'>
