@@ -1,16 +1,13 @@
 import Link from 'next/link'
 import Layout from '../components/Layout'
-import Title from '../components/Title'
-import Description from '../components/Description'
+import MainHeader from '../components/MainHeader'
 import styles from '../styles/Home.module.css'
 
 const Home = () => {
   return (
     <Layout>
       <main>
-        <Title />
-
-        <Description />
+        <MainHeader />
 
         <div className={styles.grid}>
           <Link href='/alcohols'>
