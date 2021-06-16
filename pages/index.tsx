@@ -1,12 +1,13 @@
 import Link from 'next/link'
 import Layout from '../components/Layout'
+import Title from '../components/Title'
 import styles from '../styles/Home.module.css'
 
 const Home = () => {
   return (
     <Layout>
       <main>
-        <h1 className={styles.title}>kb's Space</h1>
+        <Title />
 
         <p className={styles.description}>
           <code className={styles.code}>Next.js, TypeScript</code>の学習スペース
