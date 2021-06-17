@@ -1,13 +1,13 @@
 import Layout from '../components/Layout'
 import MainHeader from '../components/MainHeader'
-import Cards from '../components/Cards'
+import CardList from '../components/CardList'
 
 const Home = () => {
   return (
     <Layout>
       <main>
         <MainHeader title="kb's Space"/>
-        <Cards />
+        <CardList />
       </main>
     </Layout>
   )

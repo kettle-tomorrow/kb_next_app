@@ -1,6 +1,6 @@
 import Card from "./Card"
 
-const Cards = () => {
+const CardList = () => {
   return (
     <div className='flex flex-wrap max-w-screen-md justify-center'>
       <Card
@@ -26,4 +26,4 @@ const Cards = () => {
     </div>
   )
 }
-export default Cards
+export default CardList
