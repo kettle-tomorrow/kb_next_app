@@ -1,16 +1,16 @@
 import Link from 'next/link'
 import Layout from '../../components/Layout'
+import MainHeader from '../../components/MainHeader'
 
 const Alcohols = () => {
   return (
     <Layout>
-      <div>
-        <h1>Alcohol</h1>
-        <p>お酒に関連するページ</p>
+      <main>
+        <MainHeader title="Alcohol"/>
         <Link href='/'>
           <a>トップに戻る</a>
         </Link>
-      </div>
+      </main>
     </Layout>
   )
 }

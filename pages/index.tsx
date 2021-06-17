@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <Layout>
       <main>
-        <MainHeader />
+        <MainHeader title="kb's Space"/>
 
         <div className={styles.grid}>
           <Link href='/alcohols'>

@@ -1,10 +1,10 @@
 import Title from "./Title"
 import Description from "./Description"
 
-const MainHeader = () => {
+const MainHeader = (props) => {
   return (
     <>
-      <Title />
+      <Title title={props.title} />
       <Description />
     </>
   )

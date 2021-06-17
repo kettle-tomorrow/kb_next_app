@@ -1,12 +1,12 @@
 import Link from 'next/link'
 import Layout from '../../components/Layout'
+import MainHeader from '../../components/MainHeader'
 
 const Hots = () => {
   return (
     <Layout>
       <div>
-        <h1>Hot</h1>
-        <p>辛いものに関連するページ</p>
+        <MainHeader title="Hot"/>
         <Link href='/'>
           <a>トップに戻る</a>
         </Link>

@@ -1,6 +1,6 @@
-const Title = () => {
+const Title = (props) => {
   return (
-    <h1 className="text-6xl text-center">kb's Space</h1>
+    <h1 className="text-6xl text-center">{props.title}</h1>
   )
 }
 
