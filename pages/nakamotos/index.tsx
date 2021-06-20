@@ -1,19 +1,17 @@
 import Link from 'next/link'
-import BlogCardList from '../../components/BlogCardList'
 import Layout from '../../components/Layout'
 import MainHeader from '../../components/MainHeader'
 
-const Teches = () => {
+const Nakamotos = () => {
   return (
     <Layout>
-      <main className='w-3/4'>
-        <MainHeader title="Tech" />
-        <BlogCardList />
+      <div>
+        <MainHeader title="Nakamoto"/>
         <Link href='/'>
           <a>トップに戻る</a>
         </Link>
-      </main>
+      </div>
     </Layout>
   )
 }
-export default Teches
+export default Nakamotos

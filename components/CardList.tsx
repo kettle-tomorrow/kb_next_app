@@ -14,14 +14,14 @@ const CardList = () => {
         description='釣りに関するページ'
       />
       <Card
-        path='/hots'
-        title='Hot'
-        description='辛いものに関するページ'
+        path='/nakamotos'
+        title='Nakamotos'
+        description='中本に関するページ'
       />
       <Card
-        path='/teches'
-        title='Tech'
-        description='技術に関するページ'
+        path='/developments'
+        title='Development'
+        description='開発に関するページ'
       />
       <Card
         path='/minesweeper'

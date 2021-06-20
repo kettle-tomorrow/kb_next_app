@@ -1,17 +1,19 @@
 import Link from 'next/link'
+import BlogCardList from '../../components/BlogCardList'
 import Layout from '../../components/Layout'
 import MainHeader from '../../components/MainHeader'
 
-const Hots = () => {
+const Developments = () => {
   return (
     <Layout>
-      <div>
-        <MainHeader title="Hot"/>
+      <main className='w-3/4'>
+        <MainHeader title="Development" />
+        <BlogCardList />
         <Link href='/'>
           <a>トップに戻る</a>
         </Link>
-      </div>
+      </main>
     </Layout>
   )
 }
-export default Hots
+export default Developments
