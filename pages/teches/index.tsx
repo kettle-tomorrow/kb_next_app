@@ -6,13 +6,13 @@ import MainHeader from '../../components/MainHeader'
 const Teches = () => {
   return (
     <Layout>
-      <div>
+      <main className='w-3/4'>
         <MainHeader title="Tech" />
         <BlogCardList />
         <Link href='/'>
           <a>トップに戻る</a>
         </Link>
-      </div>
+      </main>
     </Layout>
   )
 }
