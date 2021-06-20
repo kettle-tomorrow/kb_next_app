@@ -5,10 +5,8 @@ import CardList from '../components/CardList'
 const Home = () => {
   return (
     <Layout>
-      <main>
-        <MainHeader title="kb's Space"/>
-        <CardList />
-      </main>
+      <MainHeader title="kb's Space"/>
+      <CardList />
     </Layout>
   )
 }

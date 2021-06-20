@@ -3,10 +3,10 @@ import Footer from './Footer'
 
 const Layout = props => {
   return (
-    <div className={styles.container}>
+    <main className={styles.container}>
       {props.children}
       <Footer />
-    </div>
+    </main>
   )
 }
 
