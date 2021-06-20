@@ -23,6 +23,11 @@ const CardList = () => {
         title='Tech'
         description='技術に関するページ'
       />
+      <Card
+        path='/minesweeper'
+        title='Minesweeper'
+        description='マインスイーパー'
+      />
     </div>
   )
 }
