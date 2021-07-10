@@ -2,18 +2,22 @@ import Square from "./Square"
 import React, { useState } from "react";
 
 const Board = () => {
-  type Squares = {
+  type Square = {
     value: number
     isDisplay: boolean
+    isBomb: boolean
   };
-  const default_squares: Squares[] = [...Array(25)].map(() => {
+  let bombs = [3, 7, 10, 16, 22];
+  const default_squares: Square[] = [...Array(25)].map((_, i) => {
     return (
       {
-        value: 1,
-        isDisplay: false
+        value: Math.floor(Math.random() * 24),
+        isDisplay: false,
+        isBomb: bombs.includes(i),
       }
     )
   })
+
   const [squares, setSquares] = useState(default_squares);
   const changeSquare = i => {
     squares[i].isDisplay = true

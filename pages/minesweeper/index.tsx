@@ -6,7 +6,7 @@ import Board from '../../components/Board'
 const Minesweeper = () => {
   return (
     <Layout>
-      <MainHeader title="マインスイーパー" />
+      <MainHeader title="[WIP]マインスイーパー" />
       <Board />
       <Link href='/'>
         <a>トップに戻る</a>
